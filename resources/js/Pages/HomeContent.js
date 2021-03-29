@@ -4,7 +4,7 @@ export default function HomeContent() {
             &nbsp;&nbsp;&nbsp;We supplies the shuttering carpenters and
             plasterers, etc in Irish construction industry. We bring them from
             China. All the workers will become the direct employees of the
-            company who odered from us. For all services provided, we charge
+            company who odered from us. For all our services provided, we charge
             zero fees and commissions to the construction firms.
             <br />
             &nbsp;&nbsp;&nbsp; Wthin Forman, the leadership consists of a
@@ -19,8 +19,8 @@ export default function HomeContent() {
             <br />
             &nbsp;&nbsp;&nbsp; We prepare necessory documents and organise the
             paperwork to ensure these people enter into Ireland smoothly. We
-            also help the workers to obtain the certificates for satisfying
-            requirement of working on construction sites after arrival.
+            also organise the industry training for satisfying requirement of
+            working on construction sites after the new workers' arrival.
             <br />
             &nbsp;&nbsp;&nbsp; When those start working with you, we provide
             on-site assistance for the initial setting up with our experienced
@@ -28,14 +28,15 @@ export default function HomeContent() {
             <br />
             &nbsp;&nbsp;&nbsp; The Chinese construction workers in Ireland have
             over 20 years history. Most Irish constructon companies have enjoyed
-            their growth with Chinese workers. Alongside, Chinese carpenters
-            have gained a good reputaion can be seen in many top concrete
-            framing contractors in the past and present;
+            their growth with Chinese workers. Alongside, Chinese construction
+            especially the Chinese carpenters have gained a good reputaion can
+            be seen in many top concrete framing contractors in the past and
+            present;
             <br />
             &nbsp;&nbsp;&nbsp; The large number of visas refusal may arise among
-            their applicants workers in the other companies. This won't be an
-            issue with our well-experienced visa team. If your company
-            experience such difficulty, you are welcome to ask us for help.
+            their applicants in some companies. This won't be an issue with our
+            well-experienced visa team. If your company is suffering from such
+            difficulty, you are welcome to ask us for help.
         </div>
     );
 }
