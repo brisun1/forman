@@ -28,10 +28,10 @@ export default function HomeContent() {
             <br />
             &nbsp;&nbsp;&nbsp; The Chinese construction workers in Ireland have
             over 20 years history. Most Irish constructon companies have enjoyed
-            their growth with Chinese workers. Alongside, Chinese construction
-            especially the Chinese carpenters have gained a good reputaion can
-            be seen in many top concrete framing contractors in the past and
-            present;
+            their growth with Chinese workers. Alongside, the Chinese
+            construction workers especially the Chinese carpenters have gained a
+            good reputaion can be seen in many top concrete framing contractors
+            in the past and present;
             <br />
             &nbsp;&nbsp;&nbsp; The large number of visas refusal may arise among
             their applicants in some companies. This won't be an issue with our
