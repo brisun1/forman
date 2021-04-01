@@ -1,9 +1,9 @@
-(self["webpackChunk"] = self["webpackChunk"] || []).push([["resources_js_Pages_Visas_jsx"],{
+(self["webpackChunk"] = self["webpackChunk"] || []).push([["resources_js_Pages_footer_jsx"],{
 
-/***/ "./resources/js/Pages/Visas.jsx":
-/*!**************************************!*\
-  !*** ./resources/js/Pages/Visas.jsx ***!
-  \**************************************/
+/***/ "./resources/js/Pages/footer.jsx":
+/*!***************************************!*\
+  !*** ./resources/js/Pages/footer.jsx ***!
+  \***************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -40,16 +40,15 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 
+var Footer = /*#__PURE__*/function (_Component) {
+  _inherits(Footer, _Component);
 
-var Visas = /*#__PURE__*/function (_Component) {
-  _inherits(Visas, _Component);
+  var _super = _createSuper(Footer);
 
-  var _super = _createSuper(Visas);
-
-  function Visas() {
+  function Footer() {
     var _this;
 
-    _classCallCheck(this, Visas);
+    _classCallCheck(this, Footer);
 
     for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
       args[_key] = arguments[_key];
@@ -62,25 +61,21 @@ var Visas = /*#__PURE__*/function (_Component) {
     return _this;
   }
 
-  _createClass(Visas, [{
+  _createClass(Footer, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-        className: "container",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h5", {
-          className: "d-flex justify-content-center",
-          children: "Visas"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
-          children: "This page is under construction"
-        }), " "]
+      return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("small", {
+          children: "\xA92019 by New Axe Construction Ltd. All right reserved."
+        })
       });
     }
   }]);
 
-  return Visas;
+  return Footer;
 }(react__WEBPACK_IMPORTED_MODULE_0__.Component);
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Visas);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);
 
 /***/ })
 

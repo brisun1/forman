@@ -5,10 +5,11 @@ class Contact extends Component {
         return (
             <div className="container">
                 <br />
-                <h5>Contact</h5>
+                <h5 className="d-flex justify-content-center">Contact</h5>
                 <br />
                 <br />
                 <p>Phone: +353-874146903</p>
+                <p>Email:info@forman.ie</p>
             </div>
         );
     }

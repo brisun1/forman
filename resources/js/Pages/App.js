@@ -13,6 +13,7 @@ import Contact from "./Contact";
 import Home from "./HomeContent";
 import ForEmployers from "./ForEmployers";
 import Visas from "./Visas";
+import Footer from "./footer";
 class App extends Component {
     state = {};
     render() {
@@ -72,6 +73,7 @@ class App extends Component {
                             </ul>
                         </div>
                     </nav>
+                    <br />
                     {/* <nav className="d-flex justify-content-around bg-light">
                         
                     </nav> */}
@@ -102,6 +104,12 @@ class App extends Component {
                         ></Route>
                     </Switch> */}
                 </Router>
+                <br />
+                <br />
+                <br />
+                <div className="d-flex justify-content-center">
+                    <Footer />
+                </div>
             </div>
         );
     }

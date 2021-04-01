@@ -67885,6 +67885,14 @@ var map = {
 	"./Visas.jsx": [
 		"./resources/js/Pages/Visas.jsx",
 		"resources_js_Pages_Visas_jsx"
+	],
+	"./footer": [
+		"./resources/js/Pages/footer.jsx",
+		"resources_js_Pages_footer_jsx"
+	],
+	"./footer.jsx": [
+		"./resources/js/Pages/footer.jsx",
+		"resources_js_Pages_footer_jsx"
 	]
 };
 function webpackAsyncContext(req) {
@@ -68013,7 +68021,7 @@ module.exports = webpackAsyncContext;
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames not based on template
-/******/ 			if ({"resources_js_Pages_App_js":1,"resources_js_Pages_Contact_jsx":1,"resources_js_Pages_ForEmployers_jsx":1,"resources_js_Pages_HomeContent_js":1,"resources_js_Pages_Visas_jsx":1}[chunkId]) return "js/" + chunkId + ".js";
+/******/ 			if ({"resources_js_Pages_App_js":1,"resources_js_Pages_Contact_jsx":1,"resources_js_Pages_ForEmployers_jsx":1,"resources_js_Pages_HomeContent_js":1,"resources_js_Pages_Visas_jsx":1,"resources_js_Pages_footer_jsx":1}[chunkId]) return "js/" + chunkId + ".js";
 /******/ 			// return url for filenames based on template
 /******/ 			return undefined;
 /******/ 		};

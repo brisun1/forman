@@ -2,7 +2,7 @@ export default function HomeContent() {
     return (
         <div className="container">
             &nbsp;&nbsp;&nbsp;We supplies the shuttering carpenters and
-            plasterers, etc in Irish construction industry. We bring them from
+            plasterers, etc. in Irish construction industry. We bring them from
             China. All the workers will become the direct employees of the
             company who odered from us. For all our services provided, we charge
             zero fees and commissions to the construction firms.

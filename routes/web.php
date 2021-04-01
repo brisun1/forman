@@ -22,5 +22,9 @@ use Inertia\Inertia;
 Route::get('/', function(){
   return Inertia::render('App');
 });
-//Route::inertia('/homec', '../Pages/HomeContent');
+Route::inertia('/homec', 'HomeContent');
+Route::inertia('/employers', 'App');
 Route::get('/homee', 'App\Http\Controllers\PagesController@homee');
+//Route::view('/{path?}', 'app');
+//bellow working
+Route::inertia('/{path?}', 'App');
