@@ -14,21 +14,21 @@ class ForEmployers extends Component {
                     shuttering carpenter is currently open to non-EU contries,
                     the plasterer is open with quotas.
                 </p>
+
                 <p>
                     To apply for the work permit, the employer has to meet
                     certain criteria. The following factors may be taken into
                     concern in practice :{" "}
                 </p>
 
-                <p>
-                    <div className="ml-2">
-                        1. The company must have been registered for at least 1
-                        year; <br />
-                        2. The company must have tax cleared in Revenue. <br />
-                        3. At least 50% of the employees in the company are EEA
-                        nationals (50:50 rule). <br />
-                    </div>
-                </p>
+                <div className="ml-2">
+                    1. The company must have been registered for at least 1
+                    year; <br />
+                    2. The company must have tax cleared in Revenue. <br />
+                    3. At least 50% of the employees in the company are EEA
+                    nationals (50:50 rule). <br />
+                </div>
+
                 <p>
                     The official employer criteria in Enterprise website could
                     be found{" "}

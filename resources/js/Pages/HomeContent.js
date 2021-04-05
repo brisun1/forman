@@ -1,6 +1,14 @@
 export default function HomeContent() {
     return (
         <div className="container">
+            <img
+                src={`/storage/images/carperters.jpg`}
+                className=" ml-2 float-right"
+                style={{
+                    height: "30vh",
+                    width: "28%",
+                }}
+            />
             &nbsp;&nbsp;&nbsp;We supplies the shuttering carpenters and
             plasterers, etc. in Irish construction industry. We bring them from
             China. All the workers will become the direct employees of the
