@@ -5,7 +5,7 @@ class Footer extends Component {
         return (
             <div>
                 <small>
-                    &copy;2019 by New Axe Construction Ltd. All right reserved.
+                    &copy;2019 by New Axe Construction Ltd. All rights reserved.
                 </small>
             </div>
         );

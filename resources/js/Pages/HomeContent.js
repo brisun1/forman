@@ -9,7 +9,7 @@ export default function HomeContent() {
             <br />
             &nbsp;&nbsp;&nbsp; Wthin Forman, the leadership consists of a
             construction professional who has over 20 years experiences both in
-            China and Ireland, and a visas specilist who has been dealing with
+            China and Ireland, and a visas expert who has been dealing with
             various visa application cases for over 18 years. Both our directors
             grew up in China.
             <br />
