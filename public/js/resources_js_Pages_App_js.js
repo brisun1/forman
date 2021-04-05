@@ -421,23 +421,25 @@ var ForEmployers = /*#__PURE__*/function (_Component) {
           className: "d-flex justify-content-center",
           children: "For Employers"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
-          children: "For non-EEA countries, people working in Ireland require a work permit from the Enterprise. The most construction trades were reserved for EU countries for many years. As construction labour market drive up in recent years, the shuttering carpenter currently open to non-EU contries, the plasterer is open with quotas."
+          children: "For non-EEA countries, people working in Ireland require a work permit from the Enterprise. The most construction trades were reserved for EU countries for many years. As construction labour market drives up in recent years, the shuttering carpenter is currently open to non-EU contries, the plasterer is open with quotas."
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("p", {
           children: ["To apply for the work permit, the employer has to meet certain criteria. The following factors may be taken into concern in practice :", " "]
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
             className: "ml-2",
-            children: ["1. The company must have been registered for at least 1 year; ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "2. The company must have tax cleared in Revenue. ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "3. At least 50% of the employees in a firm are EEA nationals (50:50 rule). ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {})]
+            children: ["1. The company must have been registered for at least 1 year; ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "2. The company must have tax cleared in Revenue. ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "3. At least 50% of the employees in the company are EEA nationals (50:50 rule). ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {})]
           })
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("p", {
-          children: ["The official criteria in Enterprise website could be found", " ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("a", {
+          children: ["The official employer criteria in Enterprise website could be found", " ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("a", {
             href: "https://enterprise.gov.ie/en/What-We-Do/Workplace-and-Skills/Employment-Permits/Permit-Types/General-Employment-Permit/",
             target: "_blank",
             className: "",
             children: [" ", "here"]
           }), ".", " "]
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("p", {
-          children: ["To bring in Chinese employees to here, it normally takes about 4-5 months. ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {})]
+          children: ["To bring in Chinese workers here, it normally takes about 4-5 months. This is based on presumption the COVID-19 quarantine does not exist.", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {})]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+          children: "The application fee for 2 years work permit is a 1000 euro. This is the only money you need to pay out for obtaining direct employees from us. We promise our service quality and on time. To give employer a guarantee, We would pay certain amount of deposit to the company who pays the work permit application fee. The deposit is to secure your payment in case of anything unexpected happens, such as refusal or long delay on visa application. We won't withdral the diposit until the new workers' arrival of Ireland."
         })]
       });
     }
@@ -467,7 +469,7 @@ __webpack_require__.r(__webpack_exports__);
 function HomeContent() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
     className: "container",
-    children: ["\xA0\xA0\xA0We supplies the shuttering carpenters and plasterers, etc. in Irish construction industry. We bring them from China. All the workers will become the direct employees of the company who odered from us. For all our services provided, we charge zero fees and commissions to the construction firms.", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("br", {}), "\xA0\xA0\xA0 Wthin Forman, the leadership consists of a construction professional who has over 20 years experiences both in China and Ireland, and a visas specilist who has been dealing with various visa application cases for over 18 years. Both our directors grew up in China.", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("br", {}), "\xA0\xA0\xA0 All the prospective workers are carefully inspected and selected in China to reasure they have right skill and are productive enough before they come into Ireland.", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("br", {}), "\xA0\xA0\xA0 We prepare necessory documents and organise the paperwork to ensure these people enter into Ireland smoothly. We also organise the industry training for satisfying requirement of working on construction sites after the new workers' arrival.", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("br", {}), "\xA0\xA0\xA0 When those start working with you, we provide on-site assistance for the initial setting up with our experienced staff, so that the new workers can do their job in orderly form.", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("br", {}), "\xA0\xA0\xA0 The Chinese construction workers in Ireland have over 20 years history. Most Irish constructon companies have enjoyed their growth with Chinese workers. Alongside, the Chinese construction workers especially the Chinese carpenters have gained a good reputaion can be seen in many top concrete framing contractors in the past and present;", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("br", {}), "\xA0\xA0\xA0 The large number of visas refusal may arise among their applicants in some companies. This won't be an issue with our well-experienced visa team. If your company is suffering from such difficulty, you are welcome to ask us for help."]
+    children: ["\xA0\xA0\xA0We supplies the shuttering carpenters and plasterers, etc. in Irish construction industry. We bring them from China. All the workers will become the direct employees of the company who odered from us. For all our services provided, we charge zero fees and commissions to the construction firms.", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("br", {}), "\xA0\xA0\xA0 Wthin Forman, the leadership consists of a construction professional who has over 20 years experiences both in China and Ireland, and a visas expert who has been dealing with various visa application cases for over 18 years. Both our directors grew up in China.", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("br", {}), "\xA0\xA0\xA0 All the prospective workers are carefully inspected and selected in China to reasure they have right skill and are productive enough before they come into Ireland.", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("br", {}), "\xA0\xA0\xA0 We prepare necessory documents and organise the paperwork to ensure these people enter into Ireland smoothly. We also organise the industry training for satisfying requirement of working on construction sites after the new workers' arrival.", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("br", {}), "\xA0\xA0\xA0 When those start working with you, we provide on-site assistance for the initial setting up with our experienced staff, so that the new workers can do their job in orderly form.", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("br", {}), "\xA0\xA0\xA0 The Chinese construction workers in Ireland have over 20 years history. Most Irish constructon companies have enjoyed their growth with Chinese workers. Alongside, the Chinese construction workers especially the Chinese carpenters have gained a good reputaion can be seen in many top concrete framing contractors in the past and present;", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("br", {}), "\xA0\xA0\xA0 The large number of visas refusal may arise among their applicants in some companies. This won't be an issue with our well-experienced visa team. If your company is suffering from such difficulty, you are welcome to ask us for help."]
   });
 }
 
@@ -544,8 +546,10 @@ var Visas = /*#__PURE__*/function (_Component) {
           className: "d-flex justify-content-center",
           children: "Visas"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
-          children: "This page is under construction"
-        }), " "]
+          children: "We have a strong visa team in our company.For the fist time applcants, the successful rate of application is well over 90%. We also provide seperate visa service currently to the construction company whose applicants' work permits have been approved, but their visas have been refused by Irish Embassy in China."
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+          children: "A firm who wants have this sepcial service needs to have the past documents submitted to the embassy. We will contact directly to those refused in China."
+        })]
       });
     }
   }]);

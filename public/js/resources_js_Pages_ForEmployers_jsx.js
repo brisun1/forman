@@ -71,23 +71,25 @@ var ForEmployers = /*#__PURE__*/function (_Component) {
           className: "d-flex justify-content-center",
           children: "For Employers"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
-          children: "For non-EEA countries, people working in Ireland require a work permit from the Enterprise. The most construction trades were reserved for EU countries for many years. As construction labour market drive up in recent years, the shuttering carpenter currently open to non-EU contries, the plasterer is open with quotas."
+          children: "For non-EEA countries, people working in Ireland require a work permit from the Enterprise. The most construction trades were reserved for EU countries for many years. As construction labour market drives up in recent years, the shuttering carpenter is currently open to non-EU contries, the plasterer is open with quotas."
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("p", {
           children: ["To apply for the work permit, the employer has to meet certain criteria. The following factors may be taken into concern in practice :", " "]
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
             className: "ml-2",
-            children: ["1. The company must have been registered for at least 1 year; ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "2. The company must have tax cleared in Revenue. ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "3. At least 50% of the employees in a firm are EEA nationals (50:50 rule). ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {})]
+            children: ["1. The company must have been registered for at least 1 year; ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "2. The company must have tax cleared in Revenue. ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "3. At least 50% of the employees in the company are EEA nationals (50:50 rule). ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {})]
           })
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("p", {
-          children: ["The official criteria in Enterprise website could be found", " ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("a", {
+          children: ["The official employer criteria in Enterprise website could be found", " ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("a", {
             href: "https://enterprise.gov.ie/en/What-We-Do/Workplace-and-Skills/Employment-Permits/Permit-Types/General-Employment-Permit/",
             target: "_blank",
             className: "",
             children: [" ", "here"]
           }), ".", " "]
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("p", {
-          children: ["To bring in Chinese employees to here, it normally takes about 4-5 months. ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {})]
+          children: ["To bring in Chinese workers here, it normally takes about 4-5 months. This is based on presumption the COVID-19 quarantine does not exist.", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {})]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+          children: "The application fee for 2 years work permit is a 1000 euro. This is the only money you need to pay out for obtaining direct employees from us. We promise our service quality and on time. To give employer a guarantee, We would pay certain amount of deposit to the company who pays the work permit application fee. The deposit is to secure your payment in case of anything unexpected happens, such as refusal or long delay on visa application. We won't withdral the diposit until the new workers' arrival of Ireland."
         })]
       });
     }
