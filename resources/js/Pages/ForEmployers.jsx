@@ -26,9 +26,9 @@ class ForEmployers extends Component {
                     year; <br />
                     2. The company must have tax cleared in Revenue. <br />
                     3. At least 50% of the employees in the company are EEA
-                    nationals (50:50 rule). <br />
+                    nationals (50:50 rule).
                 </div>
-
+                <br />
                 <p>
                     The official employer criteria in Enterprise website could
                     be found{" "}
