@@ -10,28 +10,29 @@ use Illuminate\Queue\SerializesModels;
 class ContactMail extends Mailable
 {
     use Queueable, SerializesModels;
-    public $content;
-    public $ename;
-    public $topic;
+    
+    public $name;
+    //public $topic;
     public $sender;
+    public $msg;
     /**
-     * Create a new message instance.
+     * Create a new msg instance.
      *
      * @return void
      */
     
-    public function __construct($content,$topic,$ename,$sender)
+    public function __construct($name,$sender,$msg)
     {
-        $this->content=$content;
-        $this->topic=$topic;
-        $this->ename=$ename;
+        $this->name=$name;
         $this->sender=$sender;
+        $this->msg=$msg;
+        
 
         //subject is built-in property of email class i presume
-        $this->subject('99 meimei.com');
+        //$this->subject('99 meimei.com');
     }
     /**
-     * Build the message.
+     * Build the msg.
      *
      * @return $this
      */
@@ -46,8 +47,10 @@ class ContactMail extends Mailable
         return $this->from('example@example.com')
                 ->view('emailFromWeb')
                 ->with([
-                    'ename' => $this->ename,
-                    'topic' => $this->topic,
+                    'name' => $this->name,
+                    'sender'=>$this->sender,
+                    'msg' => $this->msg,
+                    
                 ]);
     }
 }

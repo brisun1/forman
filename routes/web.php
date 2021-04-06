@@ -16,7 +16,10 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/', function () {
 //     return view('welcome');
 // });
-
+Route::get('/contactus', function () {
+  return view('contactus');
+});
+Route::post('/sendMail', 'MailController@sendMail');
 use Inertia\Inertia;
 
 Route::get('/', function(){
@@ -28,3 +31,6 @@ Route::get('/homee', 'App\Http\Controllers\PagesController@homee');
 //Route::view('/{path?}', 'app');
 //bellow working
 Route::inertia('/{path?}', 'App');
+// Route::get('/contactus', function () {
+//     return view('contactus');
+// });

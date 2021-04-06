@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Api;
+namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
@@ -20,14 +20,15 @@ class MailController extends Controller
 //});
 //return "test";
         $name=$request->input('name');
-        $message=$request->input('message');
         $sender=$request->input('sender');
+        $msg=$request->input('message');
+        
         // $from=auth()->user()->email;
         
         
         //Mail::to('chinesedriver.com@gmail.com')->send(new ContactMail('contactus',$message,$name,$sender));
-        Mail::to('chinesedriver.com@gmail.com')->send(new ContactMail($message,$name,$sender));
+        Mail::to(['highlevelstructures@gmail.com','xu.forman@mail.com'])->send(new ContactMail($name,$sender,$msg));
         
-         return redirect('/');
+         return redirect('/contact');
     }
 }
