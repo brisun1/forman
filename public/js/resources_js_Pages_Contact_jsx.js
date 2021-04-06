@@ -148,7 +148,7 @@ var Contact = /*#__PURE__*/function (_Component) {
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
               className: "form-group",
               children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
-                type: "submit",
+                // type="submit"
                 className: "btn btn-primary",
                 value: "Send",
                 children: "Send"

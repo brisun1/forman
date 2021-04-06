@@ -70,10 +70,10 @@ var Visas = /*#__PURE__*/function (_Component) {
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h5", {
           className: "d-flex justify-content-center",
           children: "Visas"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+          children: "We have a strong visa team in our company.For the fist time applcants, the successful rate of our visa application is up to 98%. We also provide seperate visa service currently to the construction company whose applicants' work permits have been approved, but their visas have been refused by Irish Embassy in China."
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
-          children: "We have a strong visa team in our company.For the fist time applcants, the successful rate of application is well over 90%. We also provide seperate visa service currently to the construction company whose applicants' work permits have been approved, but their visas have been refused by Irish Embassy in China."
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
-          children: "A firm who wants have this sepcial service needs to have the past documents submitted to the embassy. We will contact directly to those refused in China."
+          children: "A firm who wants have this sepcial service needs to have the past documents submitted to the embassy available. We will contact directly to those refused in China."
         })]
       });
     }
