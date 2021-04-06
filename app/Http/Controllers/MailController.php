@@ -29,6 +29,6 @@ class MailController extends Controller
         //Mail::to('chinesedriver.com@gmail.com')->send(new ContactMail('contactus',$message,$name,$sender));
         Mail::to(['highlevelstructures@gmail.com','xu.forman@mail.com'])->send(new ContactMail($name,$sender,$msg));
         
-         return redirect('/contact');
+         return redirect('/');
     }
 }

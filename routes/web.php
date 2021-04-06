@@ -27,7 +27,7 @@ Route::get('/', function(){
 });
 Route::inertia('/homec', 'HomeContent');
 Route::inertia('/employers', 'App');
-Route::get('/homee', 'App\Http\Controllers\PagesController@homee');
+//Route::get('/homee', 'App\Http\Controllers\PagesController@homee');
 //Route::view('/{path?}', 'app');
 //bellow working
 Route::inertia('/{path?}', 'App');
