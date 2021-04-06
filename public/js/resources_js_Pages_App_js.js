@@ -322,28 +322,129 @@ var Contact = /*#__PURE__*/function (_Component) {
 
     _defineProperty(_assertThisInitialized(_this), "state", {});
 
+    _defineProperty(_assertThisInitialized(_this), "handleSubmit", function () {
+      var name = _this._name.input;
+      var sender = _this._sender.input;
+      var message = _this._message.input; //send em
+    });
+
     return _this;
   }
 
   _createClass(Contact, [{
     key: "render",
     value: function render() {
+      var _this2 = this;
+
       return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
         className: "container",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h5", {
           className: "d-flex justify-content-center",
-          children: "Contact"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+          children: "Contact Us"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h6", {
+          children: "Our contact detail:"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("hr", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
           children: "Phone: +353-874146903"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
           children: "Email: info@forman.ie"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h6", {
+          children: "Email us now:"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("hr", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+          className: "col-12 col-md-6",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("form", {
+            className: "form-horizontal" // method="POST"
+            // action="{{ action('HelpsController@email') }}"
+            ,
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+              className: "form-group form-inline",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("label", {
+                htmlFor: "Name",
+                children: ["Company/Individual Name\uFF1A", " "]
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("input", {
+                name: "name",
+                type: "text",
+                className: "form-control",
+                id: "ename" //ref={this.input}
+                //value="{{$ename}}"
+                ,
+                ref: function ref(input) {
+                  return _this2._name = input;
+                },
+                placeholder: "Name",
+                required: true
+              })]
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+              className: "form-group form-inline",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("label", {
+                htmlFor: "sender",
+                children: "Phone No./Email: "
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("input", {
+                name: "sender",
+                type: "text",
+                className: "form-control",
+                id: "sender",
+                ref: function ref(input) {
+                  return _this2._sender = input;
+                } //value=""
+                ,
+                placeholder: "Phone/Email",
+                required: true
+              })]
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+              className: "form-group",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("label", {
+                htmlFor: "message",
+                children: "Message: "
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("textarea", {
+                name: "message",
+                type: "text",
+                rows: "12",
+                className: "form-control luna-message",
+                id: "help_msg",
+                ref: function ref(input) {
+                  return _this2._message = input;
+                } // ref={this.input}
+                ,
+                placeholder: "",
+                required: true
+              })]
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+              className: "form-group",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
+                type: "submit",
+                className: "btn btn-primary",
+                value: "Send",
+                children: "Send"
+              })
+            })]
+          })
         })]
       });
     }
   }]);
 
   return Contact;
-}(react__WEBPACK_IMPORTED_MODULE_0__.Component);
+}(react__WEBPACK_IMPORTED_MODULE_0__.Component); // <div class="col-12 col-md-6">
+// 	<form class="form-horizontal" method="POST" action="{{ action('HelpsController@email') }}">
+// 		{{ csrf_field() }}
+// 		<div class="form-group form-inline">
+// 		<label for="Name">姓名： </label>
+// 		<input type="text" class="form-control" id="ename" value="{{$ename}}" placeholder="{{$ename}}" name="name" required>
+// 	</div>
+// 	<div class="form-group form-inline">
+// 		<label for="sender">Email或电话: </label>
+// 		<input type="text" class="form-control" id="sender" value="{{$email}}" placeholder="{{$email}}" name="sender" required>
+// 	</div>
+// 	<div class="form-group">
+// 		<label for="message">内容: </label>
+// 		<textarea type="text" rows="12" class="form-control luna-message" id="help_msg" placeholder="" name="message" required></textarea>
+// 	</div>
+// 		<div class="form-group">
+// 			<button type="submit" class="btn btn-primary" value="Send">发送Email</button>
+//         </div>
+// 	</form>
+// </div>
+
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Contact);
 
