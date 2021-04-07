@@ -57,7 +57,7 @@ function Contact() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    _inertiajs_inertia__WEBPACK_IMPORTED_MODULE_1__.Inertia.post("sendMail", values); // const name = this._name.input;
+    _inertiajs_inertia__WEBPACK_IMPORTED_MODULE_1__.Inertia.post("contact", values); // const name = this._name.input;
     // const sender = this._sender.input;
     // const message = this._message.input;
     //send em

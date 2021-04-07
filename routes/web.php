@@ -19,7 +19,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/contactus', function () {
   return view('contactus');
 });
-Route::post('/sendMail', 'MailController@sendMail');
+//Route::inertia('/contact', 'Contact');
+Route::get('contact', 'ContactController@index')->name('contact');
+Route::post('contact', 'ContactController@sendMail');
+// ->names([
+//   'sendMail' => 'contact.sendMail']);
+        
+// Route::post('contact/sendMail', 'ContactController@sendMail');
 use Inertia\Inertia;
 
 Route::get('/', function(){
@@ -27,6 +33,7 @@ Route::get('/', function(){
 });
 Route::inertia('/homec', 'HomeContent');
 Route::inertia('/employers', 'App');
+Route::inertia('/contact', 'App');
 //Route::get('/homee', 'App\Http\Controllers\PagesController@homee');
 //Route::view('/{path?}', 'app');
 //bellow working

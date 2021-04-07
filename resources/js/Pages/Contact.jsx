@@ -17,7 +17,7 @@ function Contact() {
     function handleSubmit(e) {
         e.preventDefault();
 
-        Inertia.post("sendMail", values);
+        Inertia.post("contact", values);
         // const name = this._name.input;
         // const sender = this._sender.input;
         // const message = this._message.input;
